@@ -1,0 +1,33 @@
+.element {
+  font-family: sans-serif;
+  height: 100px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  display: "flex";
+}
+
+h2 {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+  padding: 20px;
+  margin: 20px;
+}
+
+button {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 600;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-content: center;
+  align-items: center;
+}
